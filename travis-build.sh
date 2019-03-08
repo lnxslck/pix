@@ -8,7 +8,7 @@ echo 'deb http://archive.neon.kde.org/dev/stable/ bionic main' | tee /etc/apt/so
 wget -qO - 'http://archive.neon.kde.org/public.key' | apt-key add -
 
 ### Add NXOS Repository
-echo 'deb http://repo.nxos.org/development nxos main' | tee /etc/apt/sources.list.d/nxos-development.list
+echo 'deb http://repo.nxos.org/testing nxos main' | tee /etc/apt/sources.list.d/nxos-testing.list
 wget -qO - 'http://repo.nxos.org/public.key' | apt-key add -
 
 ### Install Dependencies
